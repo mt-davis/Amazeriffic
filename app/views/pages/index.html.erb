@@ -1,8 +1,7 @@
 <!doctype html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="reset.css">
-        <link rel="stylesheet" type="text/css" href="style.css">
+       <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
         <title>Amazeriffic</title>
     </head>
 </html>
@@ -14,7 +13,10 @@
         <td><%= link_to 'FAQ', pages_faq_path %></td> |
         <a href="#">Support</a> |
     </nav>
-    <h2>Amazeriffic will change your life!</h2>
+    </header>
+    
+    <main>
+        <h2>Amazeriffic will change your life!</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pharetra ante nec lacus elementum placerat. Donec sit amet dolor gravida, suscipit leo quis, sollicitudin urna. Suspendisse et aliquam magna, sed vestibulum purus. Nulla pretium ex </p>
     <h3>Here's why you need Amazeriffic</h3>
     <ul>
@@ -23,9 +25,6 @@
         <li>It rocks your world</li>
     </ul>
     <img alt="image of lightbulb" src="https://s3.amazonaws.com/amazeriffi/lightbulb.jpg">
-    </header>
-    
-    <main>
     </main>
     
     <footer>
